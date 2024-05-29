@@ -4,6 +4,7 @@ import world from './images/world.png'
 import div from './images/div.png'
 import team from './images/team.png'
 import laptop from './images/laptop.png'
+import employee from './images/employee.png'
 
 const hero = () => {
     return (
@@ -65,6 +66,39 @@ const hero = () => {
                     </h1>
                     <button className='bg-[#F9EFE4] m-auto justify-center items-center flex border border-[#000] p-2 rounded-3xl'>Browse templates</button>
                 </div>
+
+<div className=' grid grid-rows-1'>
+<div className='bg-white w-fit'>
+<h1>Employee handbook</h1>
+<img src={employee}/>
+</div>
+
+<div className='bg-white'>
+<h1>Employee handbook</h1>
+<img src={employee}/>
+</div>
+
+<div className='bg-white'>
+<h1>Employee handbook</h1>
+<img src={employee}/>
+</div>
+
+<div className='bg-white'>
+<h1>Employee handbook</h1>
+<img src={employee}/>
+</div>
+
+<div className='bg-white'>
+<h1>Employee handbook</h1>
+<img src={employee}/>
+</div>
+
+<div className='bg-white'>
+<h1>Employee handbook</h1>
+<img src={employee}/>
+</div>
+</div>
+
             </div>
         </div>
     )

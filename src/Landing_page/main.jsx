@@ -4,7 +4,7 @@ import Hero from './hero'
 
 const main = () => {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
  <Navbar/>
  <Hero/>
  </div>

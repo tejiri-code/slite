@@ -18,6 +18,8 @@ import specs from './images/spec.png'
 import talent from './images/talent.png'
 import standup from './images/standup.png'
 import brief from './images/brief.png'
+import play from './images/play.png'
+import comment from './images/comment.png'
 
 const hero = () => {
     const settings = {
@@ -100,7 +102,7 @@ const hero = () => {
                 </div>
             </div>
 
-            <div className='bg-[#F9EFE4] block pt-40 h-screen'>
+            <div className='bg-[#F9EFE4]  block pt-40 h-screen'>
                 <div>
                     <h1 className='text-center text-4xl text-[#2F2F30] font-semibold'>Beat the blank canvas with Templates</h1>
                     <h1 className='text-center text-sm py-5 text-[#2F2F30]'>
@@ -177,19 +179,28 @@ const hero = () => {
                 </div>
             </div>
 
-            <div className='bg-[#F9EFE4] block pt-40 h-scree'>
+            <div className='bg-[#F9EFE4] block pt-16  h-full'>
                 <div>
-                    <h1 className='text-center text-4xl text-[#2F2F30] py-5 font-semibold'>
+                    <h1 className='text-center text-4xl text-[#2F2F30] py-5 font-medium'>
                         Move ideas forward.
                     </h1>
-                    <h1 className='text-center text-4xl text-[#2F2F30] py-5 font-semibold'>
+                    <h1 className='text-center text-4xl text-[#2F2F30] py-5 font-medium'>
                         Docs, meet Discussions.
                     </h1 >
-                    <h1 className='text-center text-base text-[#2F2F30] '>
+                    <h1 className='text-center text-base mb-10 text-[#2F2F30] '>
                         Decisions don't work on their own, and neither does your team. In Slite, decision-making and async discussion <p /> comes built-in, inside Docs. Say goodbye to scattered conversations and endless Slack threads.
                     </h1>
+                    <button className='bg-[#176AE5] border border-[#176AE5] mx-auto justify-center flex py-2 px-8 text-white rounded-3xl'>I want that too</button>
+                </div>
+                <div className='bg-[#F9EFE4] '>
+                    <img src={play} className='m-auto w-2/4 px-8 pt-10 pb-40 ' />
                 </div>
             </div>
+
+            <div className='bg-[#F9EFE4] h-screen pt-20'>
+                <img src={comment} className='m-auto w-2/4' />
+            </div>
+
         </div>
     )
 }
